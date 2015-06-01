@@ -1,0 +1,8 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/turkey"
+    android:orientation="vertical" >
+
+</RelativeLayout><!-- From: file:/D:/COMPRESSED/CitySigthseeingTurkey/CitySigthseeingTurkey/app/src/main/res/layout/acilis.xml -->

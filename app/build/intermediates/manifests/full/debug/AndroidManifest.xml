@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.citysigthseeingturkey"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.citysigthseeingturkey.splash"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.CitySightseeingTurkey"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="com.example.citysigthseeingturkey.EKRAN2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.intent"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.ayasofya"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.ciragan"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.cistern"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.eminonu"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.four"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.ImageAdapter"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.marmara"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.ottoman"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.reina"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.sultanahmet"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.topkapi"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.villa"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.intentankara"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.anatolian"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.anitkabir"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.butcha"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.crowne"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.etnografya"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.haciarif"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.kale"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.kocatepe"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.marriot"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.mezzaluna"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.rixos"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.intentantalya"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.titanic"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.bistro"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.koprulu"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.kursunlu"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.lara"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.lounge"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.mardan"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.palace"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.perge"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.stellas"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.termesos"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.intentnevsehir"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.dayi"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.dedeman"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.derinkuyu"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.doubletree"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.goreme"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.han"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.hanedan"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.lila"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.peri"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.uchisar"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.urgup"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.intentmugla"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.oludeniz"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.dalyan"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.sakli"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.izztuzu"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.olitree"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.buzz"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.ssahmet"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.harry"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.crystal"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.labla"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.voyage"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.intenteskisehir"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.aciktim"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.anemon"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.atlihan"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.dedepark"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.havelka"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.kircicegi"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.kursunlu1"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.odunpazari"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.traveler"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.verman"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.yazilikaya"
+            android:label="@string/title_activity_city_sightseeing_turkey" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.citysigthseeingturkey.mekan_detay"
+            android:label="@string/title_activity_mekan_detay" >
+        </activity>
+    </application>
+
+</manifest>

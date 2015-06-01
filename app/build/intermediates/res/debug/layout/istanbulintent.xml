@@ -1,0 +1,91 @@
+      
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/RelativeLayout1"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@drawable/istan"
+ >
+<TextView
+android:id="@+id/textView1"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_marginTop="0dp"
+android:text="HISTORICAL PLACES"
+android:textStyle="bold|italic"
+ />
+<Button
+android:id="@+id/but1"
+android:layout_width="fill_parent"
+android:layout_height="30dp"
+android:layout_alignParentLeft="true"
+android:layout_alignParentTop="true"
+android:text="Sultanahmet Mosque"
+android:textSize="10dp"
+android:layout_marginTop="15dp"
+/>
+
+    <Button
+android:id="@+id/but4"
+android:layout_width="fill_parent"
+android:layout_height="30dp"
+        android:text="Topkapı Palace"
+android:textSize="10dp"
+        android:layout_below="@+id/but1"
+        android:layout_alignParentLeft="true" />
+<TextView
+android:id="@+id/textView2"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+    android:layout_marginTop="38dp"
+android:text="FOOD AND DRINK"
+android:textStyle="bold|italic"
+    android:layout_below="@+id/but4"
+    android:layout_alignParentLeft="true" />
+
+    <Button
+android:id="@+id/but8"
+android:layout_width="fill_parent"
+android:layout_height="30dp"
+    android:text="Reina Cafe and Bistro"
+android:textSize="10dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/textView2" />
+<TextView
+android:id="@+id/textView3"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_alignParentLeft="true"
+android:layout_below="@+id/but8"
+android:layout_marginTop="5dp"
+android:text="HOTELS"
+android:textStyle="bold|italic" />
+
+    <Button
+android:id="@+id/but11"
+android:layout_width="fill_parent"
+android:layout_height="30dp"
+    android:text="Ciragan Palace Kempinski"
+android:textSize="10dp"
+    android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView3" />
+<Button
+android:id="@+id/but12"
+android:layout_width="70dp"
+android:layout_height="40dp"
+    android:layout_marginTop="33dp"
+android:text="BACK"
+android:textSize="10dp"
+    android:layout_below="@+id/but11"
+    android:layout_alignRight="@+id/textView2" />
+<Button
+android:id="@+id/but13"
+android:layout_width="70dp"
+android:layout_height="40dp"
+    android:text="HOME"
+android:textSize="10dp"
+    android:layout_marginRight="68dp"
+    android:layout_alignTop="@+id/but12"
+    android:layout_alignParentRight="true" />
+</RelativeLayout><!-- From: file:/D:/COMPRESSED/CitySigthseeingTurkey/CitySigthseeingTurkey/app/src/main/res/layout/istanbulintent.xml -->
